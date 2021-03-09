@@ -1,0 +1,10 @@
+{
+    "items" : [
+        {
+            "text" : "Details",
+            "link" : "https://jford.link",
+            "color-start" : "rgb(112, 112, 112)",
+            "color-end" : "rgb(164, 164, 164)"
+        }
+    ]
+}
