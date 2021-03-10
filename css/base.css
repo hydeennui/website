@@ -1,3 +1,8 @@
+@font-face {
+    font-family: aAbsoluteEmpire;
+    src: url(aAbsoluteEmpire.ttf);
+}
+
 .nav-container-offset {
     left: 0px;
     right: 0px;
@@ -32,5 +37,24 @@
 }
 
 .content-item.content-item-highlight {
-    background: linear-gradient(to right,#96E072,#3DA35D,#3E8914,#134611);
+    background: none;
+    transition: background 0.33s;
 }
+
+.content-item {
+    color: white;
+}
+
+.content-item.content-item-highlight:hover {
+    background:  linear-gradient(to right,#8A67DD,#5936AC);
+}
+/*
+.content-item.content-item-highlight p
+*/
+.content-item.content-item-highlight p {
+    background: #100E12;
+}
+.content-item p {
+    background: #100E12;
+}
+
