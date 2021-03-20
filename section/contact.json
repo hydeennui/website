@@ -1,10 +1,25 @@
 {
     "items" : [
         {
-            "text" : "Details",
-            "link" : "https://jford.link",
+            "icon" : "icons/instagram.svg",
+            "text" : "Instagram",
+            "link" : "https://www.instagram.com/hydeennui/",
             "color-start" : "rgb(112, 112, 112)",
             "color-end" : "rgb(164, 164, 164)"
+        },
+        {
+            "icon" : "icons/envelope.small.svg",
+            "text" : "Email",
+            "link" : "mailto:hydeennui@gmail.com",
+            "color-start" : "rgb(112, 112, 112)",
+            "color-end" : "rgb(164, 164, 164)"
+        },
+        {
+            "icon" : "icons/link.small.svg",
+            "text" : "More",
+            "link" : "https://jford.link",
+            "color-start" : "rgb(0, 115, 176)",
+            "color-end" : "rgb(0, 115, 176)"
         }
     ]
 }

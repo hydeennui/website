@@ -49,12 +49,11 @@
     background:  linear-gradient(to right,#8A67DD,#5936AC);
 }
 /*
-.content-item.content-item-highlight p
-*/
 .content-item.content-item-highlight p {
     background: #100E12;
 }
 .content-item p {
     background: #100E12;
 }
+*/
 
