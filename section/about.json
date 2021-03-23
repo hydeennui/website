@@ -2,6 +2,15 @@
     "items" : [
         {
             "text" : "Welcome"
+        },
+        {
+            "photo" : "images/hyde-bnw.photo"
+        },
+        {
+            "photo" : "images/hyde-dark.photo"
+        },
+        {
+            "photo" : "images/hyde-low.photo"
         }
     ]
 }
