@@ -55,14 +55,19 @@
             </div>
         </div>
     
-        <div class="image-loader" image-src='images/rainer.photo' image-pos='top' style="height: 100%;">
-            <div class="title-container">
-                <div class="title noselect" style="font-family: aAbsoluteEmpire;"><span>Hyde</span> <span style="color: #8F6BE5;">Ennui</span></div>
-                <br>
-                <div class="subtitle noselect">Queen</div>
-                <div class="title-scroll-indicator noselect" onclick="scrollIndicatorClick()">></div>
+            <div style="right: 0; bottom: 0; min-width: 100%; height: 100%;  overflow: hidden; display: flex;
+  justify-content: center;">
+                <video video autoplay muted loop style="right: 0; bottom: 0; min-width: 100%; height: 100%; align-content: center; overflow: hidden; display: block; object-fit: cover;">
+                    <source src="Hyde Title.mp4" type="video/mp4">
+                </video>
             </div>
-        </div>
+
+            <div style="top: -10em; position: relative;">
+                <div class="title-container">
+                    <div class="subtitle noselect">Queen</div>
+                    <div class="title-scroll-indicator noselect" onclick="scrollIndicatorClick()">></div>
+                </div>
+            </div>
         
         <div class="content-loader" content-src='section/about.json'></div>
         <!--<div class="image-loader" image-src='images/deception.photo' image-pos='center' style="height: 60%;"></div>-->
