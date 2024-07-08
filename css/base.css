@@ -45,8 +45,12 @@
     color: white;
 }
 
+.content-item.content-item-highlight {
+    background:  linear-gradient(to right,#5936AC,#39168C) !important;
+}
+
 .content-item.content-item-highlight:hover {
-    background:  linear-gradient(to right,#8A67DD,#5936AC);
+    background:  linear-gradient(to right,#8A67DD,#5936AC) !important;
 }
 /*
 .content-item.content-item-highlight p {
