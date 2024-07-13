@@ -61,3 +61,21 @@
 }
 */
 
+.video-default {
+    display: flex;
+}
+
+.video-mobile {
+    display: none;
+}
+
+@media (max-aspect-ratio: 3/4) {
+  .video-default {
+      display: none;
+    }
+
+    .video-mobile {
+        display: flex;
+    }
+}
+
