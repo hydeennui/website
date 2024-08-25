@@ -2,15 +2,6 @@
     "items" : [
         {
             "text" : "Aspiring Drag Queen based in San Francisco."
-        },
-        {
-            "photo" : "images/hyde-bnw.photo"
-        },
-        {
-            "photo" : "images/hyde-dark.photo"
-        },
-        {
-            "photo" : "images/hyde-close-up.photo"
         }
     ]
 }

@@ -1,0 +1,16 @@
+{
+    "items" : [
+        {
+            "photo" : "images/hyde-close-up.photo"
+        },
+        {
+            "photo" : "images/hyde-dark.photo"
+        },
+        {
+            "photo" : "images/hyde-green.photo"  
+        },
+        {
+            "photo" : "images/hyde-bnw.photo"
+        }
+    ]
+}
