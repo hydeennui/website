@@ -1,3 +1,7 @@
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
+
 import Vapor
 
 func routes(_ app: Application) throws {
