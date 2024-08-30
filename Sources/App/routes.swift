@@ -7,6 +7,6 @@ func routes(_ app: Application) throws {
         let data = try Data(contentsOf: calendarURL)
         let tempURL = URL(fileURLWithPath: NSTemporaryDirectory().appending(UUID().uuidString + ".ics"))
         try data.write(to: tempURL)
-        return try await req.fileio.asyncStreamFile(at: tempURL.path())
+        return try await req.fileio.asyncStreamFile(at: tempURL.path)
     }
 }
